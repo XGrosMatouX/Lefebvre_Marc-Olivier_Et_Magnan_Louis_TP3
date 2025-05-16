@@ -4808,6 +4808,9 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -4847,13 +4850,15 @@ ParticleSystemRenderer:
   m_RenderAlignment: 0
   m_Pivot: {x: 0, y: 0, z: 0}
   m_Flip: {x: 0, y: 0, z: 0}
-  m_UseCustomVertexStreams: 0
   m_EnableGPUInstancing: 0
   m_ApplyActiveColorSpace: 0
   m_AllowRoll: 1
   m_FreeformStretching: 0
   m_RotateWithStretchDirection: 1
+  m_UseCustomVertexStreams: 0
   m_VertexStreams: 00010304
+  m_UseCustomTrailVertexStreams: 0
+  m_TrailVertexStreams: 00010304
   m_Mesh: {fileID: 0}
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
@@ -4940,6 +4945,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4947,7 +4953,7 @@ AudioSource:
   Mute: 0
   Spatialize: 1
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 1
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 30
@@ -5043,16 +5049,12 @@ MonoBehaviour:
   defaultBank:
     name: 
     clips:
-    - {fileID: 8300000, guid: 401db7b243be8420d9b7cc6e4ccfd2c9, type: 3}
-    - {fileID: 8300000, guid: dae2a4f422ba74eb08cbef1dbd922884, type: 3}
-    - {fileID: 8300000, guid: c49b6198a3a2b4596bf93f0a37561793, type: 3}
-    - {fileID: 8300000, guid: 60c8890c93a77451c9ca33ec63e1bbf4, type: 3}
-    - {fileID: 8300000, guid: 84929eac1a0f541b79e2d2a104118522, type: 3}
-    - {fileID: 8300000, guid: 7575b748586d14b1e8b792be5304c1e3, type: 3}
-    - {fileID: 8300000, guid: 8daee948bba2d46d3b44b5bce81698e6, type: 3}
-    - {fileID: 8300000, guid: 3d6364aca818245b3b570a23b79ad226, type: 3}
-    - {fileID: 8300000, guid: d9add775350184a7ab41db9c258b7706, type: 3}
-    - {fileID: 8300000, guid: f5d4b5ee2865e4e9b85ec4ab4da82c04, type: 3}
+    - {fileID: 8300000, guid: 811e247b78e46f74c9f30c67ee272b93, type: 3}
+    - {fileID: 8300000, guid: a306fa85737a3204496dadf57643d3fc, type: 3}
+    - {fileID: 8300000, guid: 19df248dc6416e74d8b15cb664703f13, type: 3}
+    - {fileID: 8300000, guid: e7120847b89bf6c4d86ff35c0ce2f348, type: 3}
+    - {fileID: 8300000, guid: 4ac276cab0bcd6743add6d9de1df4f0c, type: 3}
+    - {fileID: 8300000, guid: 969fd6c5541b8c44bbbc0665f4875fbc, type: 3}
   overrides: []
   playing: 0
   canPlay: 0
@@ -5224,6 +5226,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 4294967295
   m_RendererPriority: 0
   m_Materials:
@@ -5293,6 +5298,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5300,9 +5306,9 @@ AudioSource:
   Mute: 0
   Spatialize: 1
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 1
   DopplerLevel: 1
-  MinDistance: 1
+  MinDistance: 8
   MaxDistance: 30
   Pan2D: 0
   rolloffMode: 1
@@ -5396,12 +5402,12 @@ MonoBehaviour:
   defaultBank:
     name: 
     clips:
-    - {fileID: 8300000, guid: 407b0b57a2c044dbd976c7f17cd08f77, type: 3}
-    - {fileID: 8300000, guid: f98ed3bdb65044f0eaf7eb0938c6d1a6, type: 3}
-    - {fileID: 8300000, guid: ee2e6c24b73f74d19a3c1713f0719e9e, type: 3}
-    - {fileID: 8300000, guid: fe1071cfa027243449bca01d191a0f4d, type: 3}
-    - {fileID: 8300000, guid: 31a0bec9de84845bd989b0e6010e31c4, type: 3}
-    - {fileID: 8300000, guid: 5a1edb1343e0b411c971d0791a837c44, type: 3}
+    - {fileID: 8300000, guid: 80ce003b967c4fe49b8c5f5424a4f38f, type: 3}
+    - {fileID: 8300000, guid: fdb986df29f6fb449a8086a59fda4240, type: 3}
+    - {fileID: 8300000, guid: f876d47ffffb8414fbe1de8a8c3ba2c0, type: 3}
+    - {fileID: 8300000, guid: e8e8f8b44c620644bbd10e25f9cb5bff, type: 3}
+    - {fileID: 8300000, guid: 23f1c04a611749a468c9e7ca2de0a4b9, type: 3}
+    - {fileID: 8300000, guid: 4ce856250fe2f7841b77b81dbf1a804d, type: 3}
     - {fileID: 8300000, guid: 0b2b7b10450844946855842157fea171, type: 3}
     - {fileID: 8300000, guid: eda29dc4e01704aaa997198079ae1582, type: 3}
   overrides: []
