@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97933d85c6acddc4bb95f77ca8cc0280, type: 3}
+  m_Name: EnglishInformationPoints
+  m_EditorClassIdentifier: 
+  language: English
+  phrases:
+  - key: INFO1
+    value: "O\xF9 suis-je ? Est-ce que je peux bouger mes jambes ? Je vais essayer
+      W, A, S et D. Peut-\xEAtre qu'elles commenceront \xE0 fonctionner normalement."
+  - key: INFO2
+    value: "Est-ce que je peux sauter par-dessus \xE7a en appuyant sur ESPACE ?"
+  - key: INFO3
+    value: "C'est tr\xE8s amusant de casser des trucs avec \xE7a ! Je vais essayer
+      un CLIC GAUCHE avec ma SOURIS et voir ce qui se passe..."
+  - key: INFO4
+    value: "Oh, quelle \xE9trange pierre... J'ai envie de marcher dessus pour voir
+      ce qu'elle fait."
+  - key: INFO4b
+    value: "\xC7a doit s'ouvrir d'une fa\xE7on ou d'une autre. Je vais explorer et
+      voir ce que je peux trouver."
+  - key: INFO5
+    value: "Je me demande \xE0 quoi servent ces cristaux de porte ? Je devrais chercher
+      d'autres interrupteurs."
